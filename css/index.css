@@ -1,20 +1,23 @@
 body{margin:0;padding:0;}
 a{text-decoration:none;}
 
-.top{height: 60px;background-color: #fff;}
+.top{height: 60px;background-color:#ff7f27;color:white;}
 .top-body{width:1000px;margin:0 auto;display:flex;}
-.logo{width:200px;line-height:60px;font-size:20px;text-indent:50px;
-    background:url(../img/logo.png) no-repeat left center;background-size:32px 32px;}
+.logo{width:200px;padding-left:70px;font-weight:bold;font-family:sans-serif;
+    background-image:url(../img/logo.png);background-repeat:no-repeat;background-size:60px 60px;}
+.h1{height: 35px;line-height: 40px;font-size: 20px;letter-spacing: 2px;}
+.small{height: 25px;line-height:20px;font-size:14px;letter-spacing: 1px;}
 
-.menu{list-style:none;margin:0;padding:0;}
-.menu li{float:left;}
-.menu li>a{line-height:60px;display:inline-block;margin-right:40px;color: #353535;font-size: 20px;}
-.menu li.active>a{color:#31B151;border-bottom:1px solid #31B151;}
-.menu li:hover>a{color:#31B151;border-bottom:1px solid #31B151;}
+.menu{list-style:none;margin:0 0 0 100px;padding:0;}
+.menu li{float:left;padding:10px 0;}
+.menu li>a{line-height:40px;display:inline-block;margin-right:40px;color:#fff;font-size: 20px;}
+.menu li.active>a{border-bottom:1px solid #fff;}
+.menu li:hover>a{border-bottom:1px solid #fff;}
 
 .page{width:1000px;margin:30px auto;}
 
-.srch{margin-bottom:30px;}
+.sec{margin-bottom:30px;}
+.srch{width:500px;}
 .srch-ul{margin-bottom:10px;padding:0;list-style:none;display:flex;}
 .srch-ul li{padding:0 10px;margin-right: 5px;line-height: 30px;cursor:pointer;font-size:14px;}
 .srch-ul li.active{color:#fff;background-color:#30B051;}
@@ -26,9 +29,9 @@ a{text-decoration:none;}
     width:100px;color:#fff;letter-spacing: 1px;background:#3385ff;}
 .srch-input a:hover{background:#3075dc;}
 
-.categery{margin-top:10px;}
-h2{display:block;padding-left:10px;font-size:14px;margin:0;line-height:30px;font-weight:normal;background:#f5f5f5;color:#3385ff;}
-.sites{margin-top:10px;}
+.categery{margin-top:10px;border:1px solid #dec5c5;}
+h2{display:block;padding-left:10px;font-size:14px;margin:0;line-height:30px;font-weight:normal;background: #dec5c5;color:#3a2a2a;}
+.sites{margin:10px;}
 .sites ul{padding:0;margin:0;list-style:none;}
 .sites ul::after{display: block;clear:both;content:"";}
 .sites ul li{width:14.7%;line-height:30px;height:30px;padding:0 7px;letter-spacing:1px;float:left;}
@@ -36,5 +39,5 @@ h2{display:block;padding-left:10px;font-size:14px;margin:0;line-height:30px;font
 .sites ul li a:hover{text-decoration:underline;}
 .favicon {width: 14px;height: 14px;vertical-align: middle;}
 
-.footer{margin-top:20px;padding:10px 0;font-size:13px;line-height:25px;height:50px;text-align:center;background:#f4f4f4;color:#e60012;}
+.footer{margin-top:20px;padding:10px 0;font-size:13px;line-height:25px;height:50px;text-align:center;background:#484444;color:white;}
 
