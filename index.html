@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>程序员导航-程序员自己的导航</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="程序员导航,前端导航,Android导航,IOS导航,设计导航,面试导航,常用网站,程序员必备">
+    <meta name="description" content="程序员导航,收录程序员常用网站">
+    <base target="_blank">
+    <link rel="shortcut icon" href="http://github.com/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<h1 style="display: none;">程序员导航</h1>
+<div class="top">
+    <div class="top-body">
+        <div class="logo">
+            <span style="color: #FC3630;">程</span>
+            <span style="color: #52733f;">序</span>
+            <span style="color: #3A83FB;">员</span>
+            <span style="color: #FDBA2C;">导</span>
+            <span style="color: #30B051;">航</span>
+        </div>
+        <ul class="menu">
+            <li class="active"><a href="#">Android</a></li>
+            <li class=""><a href="#">IOS</a></li>
+            <li class=""><a href="#">前端</a></li>
+            <li class=""><a href="#">设计</a></li>
+            <li class=""><a href="#">面试</a></li>
+            <li class=""><a href="#">微信推荐</a></li>
+        </ul>
+    </div>
+</div>
+<div class="page">
+    <div class="srch">
+        <ul class="srch-ul">
+            <li class="active" data-target="google">Google</li>
+            <li data-target="baidu">百度</li>
+            <li data-target="bing">必应</li>
+            <li data-target="github">Github</li>
+            <li data-target="code">代码</li>
+            <li data-target="picture">图标</li>
+        </ul>
+        <div class="srch-input active" id="google">
+            <input type="text" placeholder="Google 搜索">
+            <a data-url="https://www.google.com/search?q={wd}">Google</a>
+        </div>
+        <div class="srch-input" id="baidu">
+            <input type="text" placeholder="Baidu 搜索">
+            <a data-url="https://www.baidu.com/s?wd={wd}">百度一下</a>
+        </div>
+        <div class="srch-input" id="bing">
+            <input type="text" placeholder="Bing 搜索">
+            <a data-url="http://cn.bing.com/search?q={wd}">Bing</a>
+        </div>
+        <div class="srch-input" id="github">
+            <input type="text" placeholder="Github 搜索">
+            <a data-url="https://github.com/search?q={wd}">Github</a>
+        </div>
+        <div class="srch-input" id="code">
+            <input type="text" placeholder="搜索代码">
+            <a data-url="https://searchcode.com/?q={wd}">搜代码</a>
+        </div>
+        <div class="srch-input" id="picture">
+            <input type="text" placeholder="搜索图标">
+            <a data-url="http://www.iconpng.com/search/tag={wd}">搜图标</a>
+        </div>
+    </div>
+    <div class="categery">
+        <h2>推荐站点</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="http://stackoverflow.com/favicon.ico">
+                    <a href="http://stackoverflow.com/" title="StackOverflow是程序员最大的在线社区，学习，分享他们的知识，并推进他们的职业生涯">StackOverflow</a></li>
+                <li><img class="favicon" src="http://segmentfault.com/favicon.ico">
+                    <a href="https://segmentfault.com/" title="SegmentFault是中国领先的开发者技术社区。 我们希望为编程爱好者提供一个纯粹、高质的技术交流的平台， 与开发者一起学习、交流与成长，创造属于开发者的时代！">SegmentFault</a></li>
+                <li><img class="favicon" src="http://v2ex.com/favicon.ico">
+                    <a href="https://v2ex.com/" title="V2EX 是一个关于分享和探索的地方">V2ex</a></li>
+                <li><img class="favicon" src="http://jianshu.com/favicon.ico">
+                    <a href="http://www.jianshu.com/" title="简书是一个优质的创作社区，在这里，你可以任性地创作，一篇短文、一张照片、一首诗、一幅画……我们相信，每个人都是生活中的艺术家，有着无穷的创造力。">简书</a></li>
+                <li><img class="favicon" src="http://github.com/favicon.ico">
+                    <a href="https://github.com/" title="GitHub全球最大项目托管平台。超过2100万人使用GitHub，托管的项目超过5800万。">GitHub</a></li>
+                <li><img class="favicon" src="http://c.csdnimg.cn/public/favicon.ico">
+                    <a href="http://www.csdn.net/" title="CSDN.NET - 全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台">CSDN</a></li>
+                <li><img class="favicon" src="http://www.oschina.net/favicon.ico">
+                    <a href="http://www.oschina.net/" title="开源中国 www.oschina.net 是目前中国最大的开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台。目前开源中国社区已收录超过两万款开源软件。">开源中国</a></li>
+                <li><img class="favicon" src="http://www.admin10000.com/Skin/favicon.ico">
+                    <a href="http://www.admin10000.com/" title="全栈开发者是网站开发人员学习交流的平台,这里提供大量实用的技术文档及相关资源下载，是网页设计、网络编程人员及其爱好者必备网站。">全栈开发者</a></li>
+                <li><img class="favicon" src="http://www.jobbole.com/favicon.ico">
+                    <a href="http://www.jobbole.com/" title="做最专业的IT互联网职业社区。">伯乐在线</a></li>
+                <li><img class="favicon" src="http://www.51cto.com/favicon.ico">
+                    <a href="http://www.51cto.com/" title="中国领先的IT技术网站51CTO(www.51cto.com)是一个为CTO、IT技术经理、系统工程师、网络工程师、安全工程师、数据库工程师、网络管理员、开发工程师、项目管理人员等IT技术人员搭建的互动媒体平台，主要为IT技术人员提供新闻资讯、技术文档、BBS、博客、技术圈、培训课程、人才交流等专业服务。">51cto</a></li>
+                <li><img class="favicon" src="http://www.tuicool.com/favicon.ico">
+                    <a href="http://www.tuicool.com/" title="推酷网是面向IT人的个性化阅读网站，其背后的推荐引擎通过智能化的分析，向用户推荐感兴趣的科技资讯、产品设计、网络营销、技术文章等内容。推酷活动聚合互联网线上活动和线下活动,为你推荐感兴趣的圈内活动。">推酷</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="categery">
+        <h2>代码托管</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="http://github.com/favicon.ico">
+                    <a href="https://github.com/" title="GitHub全球最大项目托管平台。超过2100万人使用GitHub，托管的项目超过5800万。">GitHub</a></li>
+                <li><img class="favicon" src="https://www.gitlab.com/favicon.ico">
+                    <a href="https://www.gitlab.com/" title="集代码托管,测试,部署于一体的开源git仓库管理软件">Gitlab</a></li>
+                <li><img class="favicon" src="https://bitbucket.org/favicon.ico">
+                    <a href="https://bitbucket.org/" title="微软的开源项目托管网站。你可以找到使用CodePlex开源软件或创建新的项目与世界分享。">Bitbucket</a></li>
+                <li><img class="favicon" src="https://www.codeplex.com/favicon.ico">
+                    <a href="https://www.codeplex.com/" title="">CodePlex</a></li>
+                <li><img class="favicon" src="https://sourceforge.net/favicon.ico">
+                    <a href="https://sourceforge.net" title="自由、安全和快速下载应用程序和最大的开放源码软件目录- SourceForge.net">SourceForge</a></li>
+                <li><img class="favicon" src="http://git.oschina.net/favicon.ico">
+                    <a href="http://git.oschina.net/" title="码云(Git@OSC)是开源中国社区团队推出的基于Git的快速的、免费的、稳定的在线代码托管平台,不限制私有库和公有库数量.">码云</a></li>
+                <li><img class="favicon" src="https://coding.net/favicon.ico">
+                    <a href="https://coding.net/" title="Coding.net 是一个面向开发者的云端开发平台，提供 git/svn 代码托管，代码质量分析，在线 WebIDE，项目管理，开发协作，冒泡社区，提供个人和企业公有云及企业私有云的服务。">Coding.net</a></li>
+                <li><img class="favicon" src="https://csdnimg.cn/public/favicon-b.ico">
+                    <a href="https://code.csdn.net/" title="CSDN CODE code.csdn.net 是CSDN旗下的开发服务平台，面向国内开发者提供代码托管、代码片、社交编程、组织管理、社区讨论、知识库等开发服务。">CSDN代码托管</a></li>
+                <li><img class="favicon" src="	http://xiaolvyun.baidu.com/favicon.ico">
+                    <a href="	http://xiaolvyun.baidu.com/" title="效率云是百度以SaaS方式为中小型互联网企业提供的整套研发工具装备，包括项目管理、Git代码托管、开发协作、版本管理、持续集成与持续交付等。">百度效率云</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="categery">
+        <h2>程序员社区</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="http://www.techmeme.com/favicon.ico">
+                    <a href="http://www.techmeme.com/" title="Techmeme">Techmeme</a></li>
+                <li><img class="favicon" src="https://www.quora.com/favicon.ico">
+                    <a href="https://www.quora.com/" title="Quora">Quora</a></li>
+                <li><img class="favicon" src="https://ruby-china.org/favicon.ico">
+                    <a href="https://ruby-china.org/" title="Ruby China">Ruby China</a></li>
+                <li><img class="favicon" src="http://ourcoders.com/favicon.ico">
+                    <a href="http://ourcoders.com/" title="OurCoders">OurCoders</a></li>
+                <li><img class="favicon" src="https://www.reddit.com/favicon.ico">
+                    <a href="https://www.reddit.com/" title="Reddit">Reddit</a></li>
+                <li><img class="favicon" src="http://cdn3.infoqstatic.com/statics_s2_20170510-0410/favicon.ico">
+                    <a href="http://www.infoq.com/cn/" title="InfoQ - 促进软件开发领域知识与创新的传播">InfoQ</a></li>
+                <li><img class="favicon" src="http://www.iteye.com/favicon.ico">
+                    <a href="http://www.iteye.com/" title="ITeye Java编程 Spring框架 Ajax技术 agile敏捷软件开发 ruby on rails实践 - ITeye做最棒的软件开发交流社区">Iteye</a></li>
+                <li><img class="favicon" src="http://www.baidu.com/favicon.ico">
+                    <a href="http://www.codeceo.com/" title="码农网-程序员编程资料和编程经验分享平台码农网是一个专注程序员编程资料、编程经验、职场面试分享的博客平台,帮助程序员在编程开发中获取第一手的实用资料..">码农网</a></li>
+                <li><img class="favicon" src="http://www.jb51.net/favicon.ico">
+                    <a href="http://www.jb51.net/" title="脚本之家是国内专业的网站建设资源、脚本编程学习类网站，提供asp、php、asp.net、javascript、jquery、vbscript、dos批处理、网页制作、网络编程、网站建设等编程资料。">脚本之家</a></li>
+                <li><img class="favicon" src="http://www.eoeandroid.com/favicon.ico">
+                    <a href="http://www.eoeandroid.com/" title="eoe 移动开发者论坛聚集活跃超百万会员，提供海量Android开发，Android开发源码下载，Android开发问题解答，Android游戏开发经验分享，android开发人才招聘，android开发环境搭建，Cocos2d-x 游戏开发，Unity3d 游戏开发进阶，android sdk下载等。">Eoe</a></li>
+                <li><img class="favicon" src="https://juejin.im/favicon.ico">
+                    <a href="https://juejin.im/" title="掘金 - juejin.im - 高质量的技术社区">掘金</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="categery">
+        <h2>文档资料</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="http://www.w3school.com.cn/favicon.ico">
+                    <a href="http://www.w3school.com.cn/" title="全球最大的中文 Web 技术教程。">W3school</a></li>
+                <li><img class="favicon" src="http://www.runoob.com/favicon.ico">
+                    <a href="http://www.runoob.com/" title="菜鸟教程(www.runoob.com)提供了最全的编程技术基础教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。..">菜鸟教程</a></li>
+                <li><img class="favicon" src="http://www.imooc.com/favicon.ico">
+                    <a href="http://www.imooc.com/" title="慕课网（IMOOC）是IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程。">慕课网</a></li>
+                <li><img class="favicon" src="http://www.weixueyuan.net/favicon.ico">
+                    <a href="http://www.weixueyuan.net/" title="微学苑是一个编程学习平台，目前已经上线了Java教程和C++教程。学完这里的课程，您能够达到中级编程水平。">微学苑</a></li>
+                <li><img class="favicon" src="http://tool.oschina.net/favicon.ico">
+                    <a href="http://tool.oschina.net/" title="开源中国在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具">在线工具</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="categery">
+        <h2>技术博客</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="http://blog.csdn.net/favicon.ico">
+                    <a href="http://blog.csdn.net/" title="CSDN深度IT技术博客，移动开发博客,Web前端博客,企业架构博客,编程语言博客,互联网博客,数据库博客,系统运维博客,云计算博客,研发管理博客,IT blog">CSDN博客</a></li>
+                <li><img class="favicon" src="http://www.cnblogs.com/favicon.ico">
+                    <a href="http://www.cnblogs.com/" title="博客园是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。博客园的使命是帮助开发者用代码改变世界。">博客园</a></li>
+                <li><img class="favicon" src="http://blog.sina.com.cn/favicon.ico">
+                    <a href="http://blog.sina.com.cn/lm/tech/" title="新浪IT博客是中国最主流的IT评论圈，是中国IT人的网上家园。欢迎各位入住新浪博客，与业界同仁共同阅读和写作。">新浪博客</a></li>
+                <li><img class="favicon" src="http://blog.51cto.com/favicon.ico">
+                    <a href="http://blog.51cto.com/" title="51CTO博客是国内领先的IT技术博客,移动开发博客,网络技术博客,IT运维博客,IT blog,云计算博客,数据库博客.博客拥有大批IT技术人和技术文章,博客每日备份.">51cto博客</a></li>
+                <li><img class="favicon" src="http://blog.itpub.net/favicon.ico">
+                    <a href="http://blog.itpub.net/" title="ITPUB博客每天千篇余篇博文新资讯，40多万活跃博主，为IT技术人提供最全面的IT资讯和交流互动的IT博客平台-中国最专业的IT技术ITPUB博客。">ITPUB</a></li>
+                <li><img class="favicon" src="http://www.williamlong.info/favicon.ico">
+                    <a href="http://www.williamlong.info/" title="月光博客，是一个专注于互联网、搜索引擎、社会化网络、IT技术、谷歌地图、软件应用等领域的原创IT科技博客，作者龙威廉（williamlong）。">月光博客</a></li>
+                <li><img class="favicon" src="http://linux.vbird.org/favicon.ico">
+                    <a href="http://linux.vbird.org" title="歡迎光臨鳥哥的 Linux 私房菜，這裡介紹 Linux 的相關知識喔！">鸟哥的私房菜</a></li>
+                <li><img class="favicon" src="http://www.ruanyifeng.com/favicon.ico">
+                    <a href="http://www.ruanyifeng.com/" title="阮一峰的网络日志">阮一峰的日志</a></li>
+                <li><img class="favicon" src="	http://jinnianshilongnian.iteye.com/favicon.ico">
+                    <a href="http://jinnianshilongnian.iteye.com/" title="开涛的博客—公众号：kaitao-1234567，一如既往的干货分享 - ITeye技术网站">开涛的博客</a></li>
+                <li><img class="favicon" src="	http://www.trinea.cn/favicon.ico">
+                    <a href="http://www.trinea.cn/" title="微信公众号codekk，专注于Android、java、开源、性能优化">Trinea</a></li>
+                <li><img class="favicon" src="http://blog.chengyunfeng.com/favicon.ico">
+                    <a href="http://blog.chengyunfeng.com/" title="About Java Android Web Dart etc …">云在千峰</a></li>
+                <li><img class="favicon" src="http://get.ftqq.com/static/image/get32px.png">
+                    <a href="http://get.ftqq.com/" title="Get社区">JobDeer Get</a></li>
+                <li><img class="favicon" src="https://blog.dreamtobe.cn/favicon.ico">
+                    <a href="https://blog.dreamtobe.cn/" title="我尝试过很多的开发，目前就职于支付宝Android性能架构网络组。">Jacksgong</a></li>
+                <li><img class="favicon" src="https://imququ.com/favicon.ico">
+                    <a href="https://imququ.com/" title="屈屈，专职前端开发，目前在中国北京。这个博客是我随便记录东西的地方。最新文章：HTTPS 常见部署问题及解决方案">JerryQu的小站</a></li>
+                <li><img class="favicon" src="http://www.baidu.com/favicon.ico">
+                    <a href="http://www.hollischuang.com/" title="HollisChuang's Bolg 是一个专注于 Java  技术分享的个人博客，为Java 开发者提供有价值的内容。">Hollis</a></li>
+                <li><img class="favicon" src="http://www.zhangxinxu.com/favicon.ico">
+                    <a href="http://www.zhangxinxu.com/" title="张鑫旭的个人博客_web前端技术文章_找到适合自己的前端发展方向">张鑫旭的个人博客</a></li>
+                <li><img class="favicon" src="https://www.centos.bz/favicon.ico">
+                    <a href="https://www.centos.bz/" title="Linux,CentOS,运维">Linux运维日志</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="categery">
+        <h2>VPS</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="https://www.digitalocean.com/favicon.ico">
+                    <a href="https://www.digitalocean.com" title="DigitalOcean is a simple and robust cloud computing platform, designed for developers.">digitalocean </a></li>
+                <li><img class="favicon" src="https://www.vultr.com/favicon.ico">
+                    <a href="https://www.vultr.com/" title="VULTR Global Cloud Hosting - Brilliantly Fast SSD VPS Cloud Servers. 100% KVM Virtualization">vultr</a></li>
+                <li><img class="favicon" src="https://www.linode.com/favicon.ico">
+                    <a href="https://www.linode.com/" title="Cloud hosting for you. Instantly deploy an SSD cloud server running with your choice of Linux distro, resources, and node location.">linode</a></li>
+                <li><img class="favicon" src="https://www.vps.net/wp-content/themes/vps/favicon.ico">
+                    <a href="http://www.vps.net/" title="Superfast SSD VPS servers from £3.50 / $5.00 pm – Our SSD VPS Server comes with a big spec, Money-back Guarantee and a low price">VPS.NET</a></li>
+                <li><img class="favicon" src="http://www.baidu.com/favicon.ico">
+                    <a href="https://bwh1.net/" title="Inexpensive VPS hosting on premium hardware with RAID-10 SAS disks and E5 CPUs. Premium Gigabit bandwidth.">bandwagonHOST</a></li>
+                <li><img class="favicon" src="http://www.sugarhosts.com/templates/sh_christmas2009/favicon.ico">
+                    <a href="http://www.sugarhosts.com/" title="Sugarhosts以超值的价格提供品质卓越的美国、德国和荷兰主机服务，同时提供近百种域名与数十种SSL安全证书。多币种付款，可选中文界面，中文客服">SugarHosts</a></li>
+                <li><img class="favicon" src="https://cn.bluehost.com/getImage.php?src=myUploadedImages/favicon.ico">
+                    <a href="http://www.bluehost.com/" title="BlueHost中国，提供专业的香港主机、美国虚拟主机、国外空间、vps服务器、云主机等网站空间托管服务。BlueHost，全球虚拟主机最受信赖的品牌，已托管了全球数百万的网站，外贸网站唯一首选主机空间。">BlueHost</a></li>
+                <li><img class="favicon" src="https://cn.hostgator.com/getImage.php?src=favicon.ico">
+                    <a href="http://www.hostgator.com/" title="HostGator中国，专业的美国虚拟主机、香港虚拟主机、美国vps主机、云服务器托管等网站空间服务商。HostGator，国外虚拟主机知名品牌，已托管了全球上百万的网站，中国外贸用户首选主机空间商。">HostGator</a></li>
+                <li><img class="favicon" src="	https://www.host1plus.com/favicon.ico">
+                    <a href="	https://www.host1plus.com/" title="Optimized OpenVZ &amp; KVM, Web and Reseller hosting solutions in 5 data centers worldwide. 14-day money back, API access, pre-installed OS templates and more.">Host1Plus</a></li>
+                <li><img class="favicon" src="https://www.interserver.net/favicon.ico">
+                    <a href="https://www.interserver.net/" title="InterServer provides world class web hosting, Cloud VPS hosting, and dedicated servers. All with 24/7 support and uptime guarantee.">InterServer</a></li>
+                <li><img class="favicon" src="http://www.qcloud.com/favicon.ico">
+                    <a href="http://www.qcloud.com/" title="腾讯云为数百万的企业和开发者提供安全、稳定的云服务器、云主机、CDN、对象存储、域名注册、云存储、云数据库等云服务，帮助用户解决游戏、视频、移动、微信、互联网+等行业的架构难题，是全球领先的云计算服务商。">腾讯云</a></li>
+                <li><img class="favicon" src="http://www.aliyun.com/favicon.ico">
+                    <a href="http://www.aliyun.com/" title="230万用户正享用阿里云提供的云服务器、云数据库、云存储、CDN、大数据等服务，7x24售后支持，故障100倍赔偿，快速备案，5天无理由退款。">阿里云</a></li>
+                <li><img class="favicon" src="http://www.kuaiyun.cn/favicon.ico">
+                    <a href="http://www.kuaiyun.cn/" title="快云，一个专业的云计算公司，30多万用户的信任之选！采用前沿云计算技术，专注打造专业的公共云计算服务平台。专业提供快云服务器、快云方案等云计算服务产品。">快云</a></li>
+
+                <li><img class="favicon" src="http://www.baidu.com/favicon.ico">
+                    <a href="https://www.zhujiceping.com/" title="本站介绍：国外VPS，国外服务器，国外主机的相关优惠信息、商家背景、网络带宽、线路走法、售前和售后技术支持等，是目前最好的一家国外主机评测平台。">国外主机测评</a></li>
+                <li><img class="favicon" src="http://www.laozuo.org/wp-content/themes/weisaysimple/images/favicon.ico">
+                    <a href="http://www.laozuo.org/myvps" title="老左在建站和学习VPS主机过程中也接触到大大小小几十家VPS商家产品，有口碑好的，有服务好的，也有性价比高的。在这篇文章中，老左希望通过推荐幼稚的商家给大家选择，尽量少走弯路，不做试验品。">老左博客</a></li>
+                <li><img class="favicon" src="https://www.baidu.com/favicon.ico">
+                    <a href="https://www.freehao123.com/ten-vps/" title="使用国外的VPS主机主要有两个问题：一是付款。只有部分VPS主机商是可以使用国内的支付宝付款，而多数国外的VPS主机只能使用Paypal或者信用卡来购买。二是售后问题。对于无人管理型的VPS主机，除非是宕机或者机房断网，VPS">VPS 测评</a></li>
+                <li><img class="favicon" src="https://www.zhihu.com/favicon.ico">
+                    <a href="https://www.zhihu.com/question/20800554" title="有哪些便宜稳定，速度也不错的Linux VPS 推荐？ - 知乎">VPS 推荐</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="categery">
+        <h2>科学上网</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="http://coderschool.cn/favicon.ico">
+                    <a href="http://coderschool.cn/1853.html" title="Google打不开,科学上网">科学上网</a></li>
+                <li><img class="favicon" src="http://dir.scmor.com/google/favicon.ico">
+                    <a href="http://dir.scmor.com/google/" title="提供谷歌学术和网页搜索的镜像网站导航,并自动检测和更新可以访问的谷歌镜像网址。">镜像导航</a></li>
+                <li><img class="favicon" src="http://www.liu16.com/favicon.ico">
+                    <a href="http://www.liu16.com/g.html" title="谷歌中国永久地址，谷歌最新ip地址,谷歌快速访问地址">谷歌镜像搜索</a></li>
+                <li><img class="favicon" src="https://leohxj.gitbooks.io/a-programmer-prepares/gitbook/images/favicon.ico">
+                    <a href="https://leohxj.gitbooks.io/a-programmer-prepares/effciency/great-fire-wall.html" title="科学上网 | 程序员的自我修养">程序员的自我修养</a></li>
+                <li><img class="favicon" src="https://www.baidu.com/favicon.ico">
+                    <a href="https://cokebar.info/archives/236" title="目前热门科学上网方式介绍及优缺点简评 - 飞羽博客">飞羽博客</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="categery">
+        <h2>VPN</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="https://www.goldenfrog.biz/images/favicon.png">
+                    <a href="https://www.goldenfrog.biz/zh" title="Golden Frog开发专注于隐私和安全的软件和在线服务。我们以在线安全和保持互联网开放为信条。">VyprVPN</a></li>
+                <li><img class="favicon" src="https://www.purevpn.com/public/images/favicon_final.ico">
+                    <a href="https://www.purevpn.com/" title="PureVPN is a VPN service provider that offers most secure and the fastest VPN service. It protects you online with its 256-bit encrypted secure VPN servers.">PureVPN</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="categery">
+        <h2>域名</h2>
+        <div class="sites">
+            <ul>
+                <li><img class="favicon" src="https://www.namecheap.com/favicon.ico">
+                    <a href="https://www.namecheap.com/" title="Domain Names - Cheap Domain Names | Namecheap.Com">NameCheap</a></li>
+                <li><img class="favicon" src="https://img1.wsimg.com/Sitecore/3/A/4/%7B3A44F70D-6D11-4C14-B611-A1F191704047%7Dgodaddy.ico">
+                    <a href="https://www.godaddy.com" title="GoDaddy 提供主机服务、网站、网络域名注册以及更多 – 全部价格公道合理。了解如此多的人选择 GoDaddy 让企业上线的原因。">Godaddy</a></li>
+                <li><img class="favicon" src="https://www.name.com/favicon.ico">
+                    <a href="https://www.name.com/" title="Your website awaits at Name.com, a trusted registrar since 2003. Buy affordable domain names. Get help 7 days a week from the best customer support in the business. Building sites is easy with Name.com">Name</a></li>
+                <li><img class="favicon" src="https://www.enom.com/favicon.ico">
+                    <a href="https://www.enom.com/" title="Buy domains from Enom: A trusted registrar since 1997 with great prices, exceptional customer service, and 24/7 support. Over 20 million registered domains and counting. FIND YOUR DOMAIN NOW >>>">Enom</a></li>
+                <li><img class="favicon" src="http://images.ipower.com/icons/favicon_ip.ico">
+                    <a href="ttp://www.ipower.com/" title="Small business web hosting offering additional business services such as: domain name registrations, email accounts, web services, online community resources and various small business solutions.">Ipower</a></li>
+                <li><img class="favicon" src="http://www.domainsite.com/media/favicon.ico">
+                    <a href="http://www.domainsite.com/" title="Domain Names, Web Hosting, and SSL Certificates | DomainSite">DomainSite</a></li>
+                <li><img class="favicon" src="https://secure.netfirms.com/images/icons/favicon_nf.ico">
+                    <a href="https://www.netfirms.com/" title="Small business web hosting offering additional business services such as: domain name registrations, email accounts, web services, online community resources and various small business solutions.">Netfirms</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--
+           <li><img class="favicon" src="https://coding.net/favicon.ico">
+               <a href="https://coding.net/" title="">Coding</a></li>
+               -->
+</div>
+<div class="footer">
+    <span>关于本站&nbsp;|&nbsp;给我留言&nbsp;|&nbsp;网站地图</span><br>
+    <span>Copyright © 2016 jk.com All Rights Reserved.</span>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    $(".srch-ul li").click(function(){
+        $(".srch-ul li.active").removeClass("active");
+        $(this).addClass("active");
+        var target=$(this).data("target");
+        $(".srch-input.active").removeClass("active");
+        $("#"+target).addClass("active");
+    });
+    $(".srch-input a").click(function(){
+        var wd=$(this).prev().val();
+        $(this).attr("href",$(this).data("url").replace("{wd}",wd));
+    });
+</script>
+</body>
+</html>
