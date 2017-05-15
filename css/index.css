@@ -4,7 +4,7 @@ a{text-decoration:none;}
 .top{height: 60px;background-color: #fff;}
 .top-body{width:1000px;margin:0 auto;display:flex;}
 .logo{width:200px;line-height:60px;font-size:20px;text-indent:50px;
-    background:url() no-repeat left center;background-size:32px 32px;}
+    background:url(../img/logo.png) no-repeat left center;background-size:32px 32px;}
 
 .menu{list-style:none;margin:0;padding:0;}
 .menu li{float:left;}
