@@ -1,4 +1,4 @@
-body{margin:0;padding:0;}
+body{margin:0;padding:0;background:#e3e3e3;}
 a{text-decoration:none;}
 
 .top{height: 60px;background-color:#ff7f27;color:white;}
@@ -29,8 +29,9 @@ a{text-decoration:none;}
     width:100px;color:#fff;letter-spacing: 1px;background:#3385ff;}
 .srch-input a:hover{background:#3075dc;}
 
-.categery{margin-top:10px;border:1px solid #dec5c5;}
-h2{display:block;padding-left:10px;font-size:14px;margin:0;line-height:30px;font-weight:normal;background: #dec5c5;color:#3a2a2a;}
+.categery{margin-top:10px;border:1px solid #dec5c5;background:#fff;}
+h2{display:block;margin:0;padding-left:10px;font-size:14px;line-height:30px;
+    font-weight:normal;color:#3a2a2a;border-bottom:1px solid #dec5c5;}
 .sites{margin:10px;}
 .sites ul{padding:0;margin:0;list-style:none;}
 .sites ul::after{display: block;clear:both;content:"";}
