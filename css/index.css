@@ -18,7 +18,7 @@ a{text-decoration:none;}
 
 .sec{margin-bottom:30px;}
 .srch{width:500px;}
-.srch-ul{margin-bottom:10px;padding:0;list-style:none;display:flex;}
+.srch-ul{margin-bottom:5px;padding:0;list-style:none;display:flex;}
 .srch-ul li{padding:0 10px;margin-right: 5px;line-height: 30px;cursor:pointer;font-size:14px;}
 .srch-ul li.active{color:#fff;background-color:#30B051;}
 .srch-ul li:hover{color:#fff;background-color:#30B051;}
