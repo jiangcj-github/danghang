@@ -7,8 +7,27 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.pg404.com/</loc>
-  <lastmod>2017-05-15T15:12:58+00:00</lastmod>
+  <loc>http://pg404.com/</loc>
+  <lastmod>2017-05-16T08:35:00+00:00</lastmod>
   <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://pg404.com/web.html</loc>
+  <lastmod>2017-05-16T08:35:00+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pg404.com/sitemap.html</loc>
+  <lastmod>2017-05-16T02:19:55+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>http://pg404.com/index.html</loc>
+  <lastmod>2017-05-16T08:35:00+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
 </url>
 </urlset>
