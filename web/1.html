@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>程序员导航 - 程序员必须知道的国内外IT网站</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="网址导航，网站导航，程序员导航，前端导航，Centos实用，常用网站，程序员必备">
+    <meta name="description" content="程序员必备的导航网站，汇集最优秀的IT网站及资源。程序员之路从这里开始。">
+    <base target="_blank">
+    <link rel="shortcut icon" href="../img/logo.png" />
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<h1 style="display: none;">程序员导航</h1>
+<div class="top">
+    <div class="top-body">
+        <div class="logo">
+            <div class="h1">程序员导航</div>
+            <div class="small">pg404.com</div>
+        </div>
+        <ul class="menu">
+            <li class=""><a href="../index.html" target="_self">首页</a></li>
+            <li class="active"><a href="javascript:void(0)" target="_self">前端</a></li>
+            <li class=""><a href="../centos/home.html" target="_self">centos</a></li>
+        </ul>
+    </div>
+</div>
+<div class="page">
+    <div class="sec">
+        <div class="srch">
+            <ul class="srch-ul">
+                <li class="active" data-target="google">Google</li>
+                <li data-target="baidu">百度</li>
+                <li data-target="bing">必应</li>
+                <li data-target="github">Github</li>
+                <li data-target="code">代码</li>
+                <li data-target="picture">图标</li>
+            </ul>
+            <div class="srch-input active" id="google">
+                <input type="text" placeholder="Google 搜索">
+                <a data-url="https://www.google.com/search?q={wd}">Google</a>
+            </div>
+            <div class="srch-input" id="baidu">
+                <input type="text" placeholder="Baidu 搜索">
+                <a data-url="https://www.baidu.com/s?wd={wd}">百度一下</a>
+            </div>
+            <div class="srch-input" id="bing">
+                <input type="text" placeholder="Bing 搜索">
+                <a data-url="http://cn.bing.com/search?q={wd}">Bing</a>
+            </div>
+            <div class="srch-input" id="github">
+                <input type="text" placeholder="Github 搜索">
+                <a data-url="https://github.com/search?q={wd}">Github</a>
+            </div>
+            <div class="srch-input" id="code">
+                <input type="text" placeholder="搜索代码">
+                <a data-url="https://searchcode.com/?q={wd}">搜代码</a>
+            </div>
+            <div class="srch-input" id="picture">
+                <input type="text" placeholder="搜索图标">
+                <a data-url="http://www.iconpng.com/search/tag={wd}">搜图标</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.write('<a style="display:none!important" id="tanx-a-mm_123432987_25788544_98728087"></a>');
+        tanx_s = document.createElement("script");
+        tanx_s.type = "text/javascript";
+        tanx_s.charset = "gbk";
+        tanx_s.id = "tanx-s-mm_123432987_25788544_98728087";
+        tanx_s.async = true;
+        tanx_s.src = "http://p.tanx.com/ex?i=mm_123432987_25788544_98728087";
+        tanx_h = document.getElementsByTagName("head")[0];
+        if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+    </script>
+    <div class="categery">
+        <h2>github入门教程</h2>
+        <div class="sites">
+            <git></git>
+        </div>
+    </div>
+    <!--
+           <li><img class="favicon" src="https://coding.net/favicon.ico">
+               <a href="https://coding.net/" title="">Coding</a></li>
+               -->
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    $(".srch-ul li").click(function(){
+        $(".srch-ul li.active").removeClass("active");
+        $(this).addClass("active");
+        var target=$(this).data("target");
+        $(".srch-input.active").removeClass("active");
+        $("#"+target).addClass("active");
+    });
+    $(".srch-input a").click(function(){
+        var wd=$(this).prev().val();
+        $(this).attr("href",$(this).data("url").replace("{wd}",wd));
+    });
+</script>
+</body>
+</html>
