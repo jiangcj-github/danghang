@@ -1,0 +1,5 @@
+.one-item{padding:10px;border-bottom: 1px dashed #e4e4e4;}
+.one-item label{color:gray;font-size:20px;}
+.one-item ul li{width:100%;}
+.one-item ul li a{color:#0000cf;}
+.one-item p{margin:10px 5px 5px 5px;font-size: 14px;text-indent:20px;}
